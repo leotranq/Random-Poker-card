@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(76, 167, 76);
+}
+#card-body {
+  border: solid black !important;
+  border-width: 1px;
+  max-width: 18rem;
+  background-color: rgb(49, 250, 59);
+  padding: 10px;
+}
+#top-card {
+  text-align: left;
+  background-color: rgb(106, 208, 255);
+  font-size: 50px;
+}
+#content-card {
+  background-color: rgb(106, 208, 255);
+  height: 250px;
+  text-align: center;
+  padding: 30%;
+}
+#bottom-card {
+  text-align: end !important;
+  background-color: rgb(106, 208, 255);
+  font-size: 50px;
+}
